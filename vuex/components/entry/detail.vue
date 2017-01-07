@@ -1,13 +1,13 @@
 <template lang="html">
   <section>
     <com-Head></com-Head>
-    <div class="index">this is index</div>
+    <div class="detail">this is detail</div>
     <com-Foot></com-Foot>
   </section>
 </template>
 
 <script>
-import '';
+
 import comHead from '../common/header.vue'
 import comFoot from '../common/footer.vue'
 export default {
@@ -19,9 +19,9 @@ export default {
 </script>
 
 <style>
-  .index{
+  .detail{
     font-size: .4rem;
-    color: red;
+    color: blue;
   }
 </style>
 

@@ -9,7 +9,7 @@ module.exports = {
     loaders: [{
         test: /\.js$/,
         loader: 'babel',
-        exclude: /node_modules|vue\/dist|vue-hot-reload-api|vue-loader/
+        //exclude: /node_modules|vue\/dist|vue-hot-reload-api|vue-loader/
       },{
         test: /\.vue$/,
         loader: 'vue'
