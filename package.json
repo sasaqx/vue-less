@@ -1,0 +1,49 @@
+{
+  "name": "myLess",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --host 0.0.0.0 --hot --config ./server.config.js",
+    "build": "webpack -p --config ./webpack.config.js"
+  },
+  "dependencies": {
+    "blusher": "git+http://git.guazi-corp.com/guazi_we/blusher.git#v1.1.6.2",
+    "core-js": "^0.6.0",
+    "vue": "^2.1.7",
+    "vue-router": "^2.1.1",
+    "vuex": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/sasaqx/vue-less.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.1.21",
+    "babel-loader": "^6.1.0",
+    "babel-plugin-transform-runtime": "^6.1.18",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-stage-2": "^6.1.18",
+    "babel-runtime": "^5.8.0",
+    "clean-webpack-plugin": "*",
+    "css-loader": "^0.21.0",
+    "extend": "^3.0.0",
+    "extract-text-webpack-plugin": "1.0.1",
+    "file-loader": "*",
+    "html-webpack-plugin": "^2.16.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "offline-plugin": "*",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "url-parse": "^1.1.1",
+    "vue-hot-reload-api": "^1.2.1",
+    "vue-html-loader": "^1.0.0",
+    "vue-loader": "^9.9.5",
+    "vue-resource": "^0.6.1",
+    "webpack": "^1.12.8",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "author": "hqx",
+  "license": "ISC"
+}
