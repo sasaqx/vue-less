@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import '';
 import comHead from '../common/header.vue'
 import comFoot from '../common/footer.vue'
 export default {

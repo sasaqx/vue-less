@@ -1,8 +1,8 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
+import Vue from 'vue'
+import VueRouter from 'vue-router'
 
-import Test from './vuex/components/entry/test.vue'
 import Index from './vuex/components/entry/index.vue'
+import Detail from './vuex/components/entry/detail.vue'
 import "css/common/base.less"
 Vue.use(VueRouter);
 // vue fix
@@ -26,9 +26,9 @@ const routes = [
         component: Index
     },
     {
-        path: '/test',
-        name: 'test',
-        component: Test
+        path: '/detail',
+        name: 'detail',
+        component: Detail
     }
 ]
 const router = window.Router = new VueRouter({
