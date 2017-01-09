@@ -1,7 +1,10 @@
 <template lang="html">
   <section>
     <com-Head></com-Head>
+<<<<<<< HEAD:vuex/components/entry/detail.vue
     <com-List></com-List>
+=======
+>>>>>>> 98c76ed7fa2ede06e4dd51452d40dccf18b10bef:vuex/components/entry/detail.vue
     <div class="detail">this is detail</div>
     <com-Foot></com-Foot>
   </section>
